@@ -1,0 +1,83 @@
+body {
+    background-color: #FFD24C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  16px 16px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image img {
+    width: 90%;
+    height: auto;
+    
+}
+.img1{
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.tag {
+    background-color: #FFBF00;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+
+.date {
+    color: gray;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.author p {
+    font-size: 0.9rem;
+}
